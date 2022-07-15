@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop">
+    <id>com.github.dynobo.normcap</id>
+    <metadata_license>CC0-1.0</metadata_license>
+    <project_license>GPL</project_license>
+    <name>NormCap</name>
+    <summary>Extract text from anywhere, even QR code</summary>
+    <description>
+        <p>Extract text from an image directly into clipboard</p>
+    </description>
+
+    <screenshots>
+        <screenshot type="default">
+            <image>https://raw.githubusercontent.com/dynobo/normcap/main/assets/normcap.gif</image>
+        </screenshot>
+    </screenshots>
+
+    <releases>
+        <release version="0.3.4" type="stable" date="2022-06-25"/>
+    </releases>
+
+
+    <launchable type="desktop-id">com.github.dynobo.normcap</launchable>
+    <url type="homepage">https://github.com/dynobo/normcap</url>
+    <url type="bugtracker">https://github.com/dynobo/normcap/issues</url>
+    <url type="help">https://github.com/dynobo/normcap/issues</url>
+
+    <content_rating type="oars-1.1">
+        <content_attribute id="violence-cartoon">none</content_attribute>
+        <content_attribute id="violence-fantasy">none</content_attribute>
+        <content_attribute id="violence-realistic">none</content_attribute>
+        <content_attribute id="violence-bloodshed">none</content_attribute>
+        <content_attribute id="violence-sexual">none</content_attribute>
+        <content_attribute id="violence-desecration">none</content_attribute>
+        <content_attribute id="violence-slavery">none</content_attribute>
+        <content_attribute id="violence-worship">none</content_attribute>
+        <content_attribute id="drugs-alcohol">none</content_attribute>
+        <content_attribute id="drugs-narcotics">none</content_attribute>
+        <content_attribute id="drugs-tobacco">none</content_attribute>
+        <content_attribute id="sex-nudity">none</content_attribute>
+        <content_attribute id="sex-themes">none</content_attribute>
+        <content_attribute id="sex-homosexuality">none</content_attribute>
+        <content_attribute id="sex-prostitution">none</content_attribute>
+        <content_attribute id="sex-adultery">none</content_attribute>
+        <content_attribute id="sex-appearance">none</content_attribute>
+        <content_attribute id="language-profanity">none</content_attribute>
+        <content_attribute id="language-humor">none</content_attribute>
+        <content_attribute id="language-discrimination">none</content_attribute>
+        <content_attribute id="social-chat">none</content_attribute>
+        <content_attribute id="social-info">none</content_attribute>
+        <content_attribute id="social-audio">none</content_attribute>
+        <content_attribute id="social-location">none</content_attribute>
+        <content_attribute id="social-contacts">none</content_attribute>
+        <content_attribute id="money-purchasing">none</content_attribute>
+        <content_attribute id="money-gambling">none</content_attribute>
+    </content_rating>
+</component>
