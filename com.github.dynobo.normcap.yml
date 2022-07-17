@@ -81,12 +81,15 @@ modules:
   - name: metadata
     buildsystem: simple
     build-commands:
-      - mkdir -p /app/share/icons/hicolor /app/share/applications/
-      - cp -r icons /app/share/icons/hicolor/
-      - cp com.github.dynobo.normcap.appdata.xml /app/share/metainfo
-      - cp com.github.dynobo.normcap.desktop /app/share/applications/
+      - install -Dm644 com.github.dynobo.normcap.svg /app/share/icons/hicolor/scalable/apps/com.github.dynobo.normcap.svg
+      - install -Dm644 com.github.dynobo.normcap.desktop /app/share/applications/com.github.dynobo.normcap.desktop
+      - install -Dm644 com.github.dynobo.normcap.appdata.xml /app/share/appdata/com.github.dynobo.normcap.appdata.xml
     sources:
-    - type: dir
-      path: data
+    - type: file
+      path: com.github.dynobo.normcap.svg
+    - type: file
+      path: com.github.dynobo.normcap.desktop
+    - type: file
+      path: com.github.dynobo.normcap.appdata.xml
 
 
