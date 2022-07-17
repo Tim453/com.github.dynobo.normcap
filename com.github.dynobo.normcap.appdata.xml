@@ -2,7 +2,7 @@
 <component type="desktop">
     <id>com.github.dynobo.normcap</id>
     <metadata_license>CC0-1.0</metadata_license>
-    <project_license>GPL</project_license>
+    <project_license>GPL-3.0-or-later</project_license>
     <name>NormCap</name>
     <summary>Extract text from any images</summary>
     <description>
